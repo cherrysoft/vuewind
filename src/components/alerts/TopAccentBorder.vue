@@ -7,7 +7,7 @@
           <p class="text-sm">Make sure you know how these changes affect you.</p>
         </div>
       </div>
-    </div>  
+    </div>
 </template>
 
 <script>
