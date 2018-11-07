@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+      <div class="flex bg-grey-lighter">
+        <div class="flex-1 text-center bg-white px-4 py-2 m-2"><img src="./assets/logo-vue.png" /></div>
+        <div class="flex-1 text-center bg-white px-4 py-2 m-2"><img src="./assets/logo-tailwind.png" /></div>
+      </div>
     <router-view/>
   </div>
 </template>
