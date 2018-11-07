@@ -60,7 +60,19 @@
           </div>
       </div>
     </div>
-
+    <!-- cards -->
+    <div class="flex mb-4">
+      <div class="container mx-auto">
+          <div class="w-full bg-grey-lightest h-12">
+              <stacked></stacked>
+          </div>
+      </div>
+      <div class="container mx-auto">
+          <div class="w-full bg-grey-lightest h-12">
+              <horizontal></horizontal>
+          </div>
+      </div>
+    </div>
 </div>
 </template>
 
@@ -82,13 +94,30 @@ import Danger from '@/components/alerts/Danger'
 import Solid from '@/components/alerts/Solid'
 import TopAccentBorder from '@/components/alerts/TopAccentBorder'
 import Banner from '@/components/alerts/Banner'
+/* alerts */
+import Stacked from '@/components/cards/Stacked'
+import Horizontal from '@/components/cards/Horizontal'
 
 export default {
   name: 'Home',
   components: {
-    Simple, Pill, Bordered, Disabled, ThreeD, Elevated, Groups, Icons,
-    Traditional, ModernBadge, LeftAccentBorder, Danger, Solid, TopAccentBorder, Banner
-
+    Simple,
+    Pill,
+    Bordered,
+    Disabled,
+    ThreeD,
+    Elevated,
+    Groups,
+    Icons,
+    Traditional,
+    ModernBadge,
+    LeftAccentBorder,
+    Danger,
+    Solid,
+    TopAccentBorder,
+    Banner,
+    Stacked,
+    Horizontal
   }
 }
 </script>
