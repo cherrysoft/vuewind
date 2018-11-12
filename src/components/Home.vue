@@ -60,6 +60,49 @@
           </div>
       </div>
     </div>
+    <!-- navigation -->
+    <div class="flex mb-4">
+      <div class="container mx-auto">
+          <div class="w-full bg-grey-lightest h-12">
+              <simple-nav></simple-nav>
+          </div>
+      </div>
+    </div>
+    <div class="flex mb-4">
+      <div class="container mx-auto">
+          <div class="w-full bg-grey-lightest h-12">
+              <responsive-header></responsive-header>
+          </div>
+      </div>
+    </div>
+    <div class="flex mb-4">
+      <div class="container mx-auto">
+          <div class="w-full bg-grey-lightest h-12">
+              <tabs></tabs>
+          </div>
+      </div>
+    </div>
+    <div class="flex mb-4">
+      <div class="container mx-auto">
+          <div class="w-full bg-grey-lightest h-12">
+              <pills></pills>
+          </div>
+      </div>
+    </div>
+    <div class="flex mb-4">
+      <div class="container mx-auto">
+          <div class="w-full bg-grey-lightest h-12">
+              <stretched></stretched>
+          </div>
+      </div>
+    </div>
+    <div class="flex mb-4">
+      <div class="container mx-auto">
+          <div class="w-full bg-grey-lightest h-12">
+              <justified></justified>
+          </div>
+      </div>
+    </div>
     <!-- cards -->
     <div class="flex mb-4">
       <div class="container mx-auto">
@@ -67,12 +110,15 @@
               <stacked></stacked>
           </div>
       </div>
+    </div>
+    <div class="flex mb-4">
       <div class="container mx-auto">
           <div class="w-full bg-grey-lightest h-12">
               <horizontal></horizontal>
           </div>
       </div>
     </div>
+
 </div>
 </template>
 
@@ -97,6 +143,13 @@ import Banner from '@/components/alerts/Banner'
 /* alerts */
 import Stacked from '@/components/cards/Stacked'
 import Horizontal from '@/components/cards/Horizontal'
+/** navigation */
+import SimpleNav from '@/components/navigation/Simple'
+import ResponsiveHeader from '@/components/navigation/ResponsiveHeader'
+import Tabs from '@/components/navigation/Tabs'
+import Pills from '@/components/navigation/Pills'
+import Stretched from '@/components/navigation/Stretched'
+import Justified from '@/components/navigation/Justified'
 
 export default {
   name: 'Home',
@@ -117,7 +170,13 @@ export default {
     TopAccentBorder,
     Banner,
     Stacked,
-    Horizontal
+    Horizontal,
+    SimpleNav,
+    ResponsiveHeader,
+    Tabs,
+    Pills,
+    Stretched,
+    Justified
   }
 }
 </script>
