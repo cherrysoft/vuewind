@@ -104,21 +104,12 @@
       </div>
     </div>
     <!-- cards -->
-    <div class="flex mb-4">
+    <div class="flex mb-12">
       <div class="container mx-auto">
-          <div class="w-full bg-grey-lightest h-12">
-              <stacked></stacked>
-          </div>
+          <stacked></stacked>
+          <horizontal></horizontal>
       </div>
     </div>
-    <div class="flex mb-4">
-      <div class="container mx-auto">
-          <div class="w-full bg-grey-lightest h-12">
-              <horizontal></horizontal>
-          </div>
-      </div>
-    </div>
-
 </div>
 </template>
 
